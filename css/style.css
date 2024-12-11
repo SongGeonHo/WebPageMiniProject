@@ -39,14 +39,16 @@ a:hover {
     overflow: hidden;
 }
 
+
 header { 
     width: 100%;
-    height: 60px;
+    height: 90px;
     background-color: #ffffff;
     position: fixed; 
     top: 0;
     left: 0;
     z-index: 1000;
+    border-bottom: 1px solid #ccc;
 }
 
 .head-container {
@@ -69,6 +71,7 @@ header {
 }
 
 .head-container .head-blog {
+    margin-top: 15px;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -105,7 +108,7 @@ section {
 
 .text-area p {
   line-height: 0;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 /* ----------------------------------------------
@@ -217,6 +220,7 @@ section {
 
 /* 로드맵 컨테이너 */
 .roadmap-container{
+  margin-top: 1000px;
     width: 100%;
     margin-top: 2rem;
 }
@@ -255,8 +259,19 @@ section {
     list-style: none; /* 기존 list의 설정을 초기화하기 위해 사용 but padding값과 margin값은 초기화 안되니 초기화하도록 */
     padding: 1rem 0; /*위아래 좌우 순서*/
     margin: 0 0 0;
-    overflow: hidden;
+    overflow: none;
 }
+
+.slide-prev-hover:hover {
+  transition: transform 0.5s; 
+  transform: translateX(-2px);
+}
+
+.slide-next-hover:hover{
+  transition: transform 0.5s;
+  transform: translateX(2px);
+}
+
 
 .class-card{
     width: 250px;
@@ -304,11 +319,16 @@ section {
 .class-desc{
     width: 100%;
     margin-top: 1rem;
+    color: #545e6f;
+}
+
+.class-desc:hover{
+  color: #2186c4;
 }
 
 .class-title{
     font-weight: bold;
-    color: #545e6f;
+    color: inherit;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -318,7 +338,7 @@ section {
 
 .class-detail{
     font-size: 0.9rem;
-    color: #545e6f;
+    color: inherit;
     line-height: 1.5rem;
 }
 
@@ -333,11 +353,59 @@ footer{
     margin: 1rem 0;
 }
 
-
-
 .footer-image {
   line-height: 1.7;
 }
+
+#backtotop {
+  background-color: rgb(47, 48, 89);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+
+  border-radius: 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition-property: background-color, opacity, visibility;
+  transition-duration: 0.3s, 0.5s, 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+}
+
+/* 아이콘 적용 방법
+  1. ::after (요소 뒤에 content 추가) 가상 요소에서,
+  2. content: "폰트어썸 유니코드" 를 넣고,
+  3. font-family: FontAwesome 이라고 넣으면 됨
+  */
+#backtotop::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-size: 1.5rem;
+  line-height: 40px;
+  color: #fff;
+}
+
+#backtotop.show:hover {
+  cursor: pointer;
+  background-color: #2186c4;
+}
+
+#backtotop.show {
+  opacity: 1;
+  visibility: visible;
+  background-color: rgb(47, 48, 49);
+}
+
+ul li img:hover{
+  cursor: grab;
+}
+
+ul li img:active{
+  cursor: grabbing;
+}
+
 /*미디어 쿼리 */
 @media only screen and (min-width: 700px){
     .inner{
