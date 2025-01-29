@@ -64,7 +64,7 @@ CSS 애니메이션을 활용한 슬라이드 기능을 추가하고, 화살표 
 바벨을 사용하여 자바스크립트 버전에 따른 호환 문제 해결, normalize.css를 사용하여 브라우저 스타일 차이 보정 
  
     
-- **기술 학습 및 사후 관리 역량**
+ **기술 학습 및 사후 관리 역량**
 
  정적 홈페이지를 만들어 봄으로서, 차후 제작할 동적 홈페이지에 대한 기초를 다졌다.
  클라이언트 사이드 렌더링(CSR) 측면에서는 React를 학습하며 이해할 것이며, 서버 사이드 렌더링(SSR) 측면에서는 스프링 타임리프(Thymeleaf) 같은 템플릿을 통해서 학습할 것입니다. 
@@ -73,8 +73,8 @@ CSS 애니메이션을 활용한 슬라이드 기능을 추가하고, 화살표 
     
 
 **참고 링크**
-- **Inflearn**: [풀스택을 위한 탄탄한 프런트엔드 부트캠프]([https://www.inflearn.com/course/%EA%B0%95%EC%9D%98%ED%8F%89%EA%B0%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-jsp/dashboard]
-- **Nomalize**: [Nomalize CSS]([https://getbootstrap.kr/](https://necolas.github.io/normalize.css/))
+- **Inflearn**: [풀스택을 위한 탄탄한 프런트엔드 부트캠프](https://www.inflearn.com/course/%EA%B0%95%EC%9D%98%ED%8F%89%EA%B0%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-jsp/dashboard)
+- **Nomalize**: [Nomalize CSS](https://necolas.github.io/normalize.css/)
 - **Animate.css**: [Animate](https://animate.style/)
 - **FontAwesome**: [FontAwesome](https://fontawesome.com/)
 
