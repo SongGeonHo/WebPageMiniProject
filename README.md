@@ -1,16 +1,20 @@
 ### 반응형 웹 프로젝트 
 
-![스크린샷1](https://github.com/user-attachments/assets/947ce28c-2b0d-4b31-9f35-9c06bd6c456b)
-![스크린샷2](https://github.com/user-attachments/assets/e21ed203-1beb-4bf9-a467-8ace68fe40ff)
-![스크린샷 3](https://github.com/user-attachments/assets/014e6cff-d395-4adf-ae73-c8be351e8568)
+![스크린샷1](https://github.com/user-attachments/assets/3e82e29c-d41f-450d-bae4-634edef8ef82)
+![스크린샷2](https://github.com/user-attachments/assets/c0216b85-cbd6-44e3-a5b2-46170e56449b)
+![스크린샷 3](https://github.com/user-attachments/assets/9c61aa6d-2b2c-44cc-b793-7d8a59de61cf)
+
 
 **개요**
+
 풀스텍 웹 개발을 처음 시작하면서, 프론트엔드의 기본적인 개념을 익히고 싶었습니다. 특히 HTML,CSS,JavaScript를 활용하여 정적인 웹 페이지를 구현하며, 웹의 구조와 스타일링, 그리고 반응형 웹 디자인을 학습하는 것이 목표였습니다. 
 이 과정에서 다양한 라이브러리들을 이용하여 반응형 디자인, 웹 표준, 크로스 브라우징 이슈 등을 경험하며 실무에서 필요한 핵심 개념을 익힐 수 있었습니다. 
  해당 기본기를 바탕으로, 클라이언트 사이드 렌더링(CSR) 측면에서는 React를 학습하며 이해할 것이며, 서버 사이드 렌더링(SSR) 측면에서는 스프링 타임리프(Thymeleaf) 같은 템플릿을 통해서 학습할 것입니다. 
  
 
-**배포** https://webpageminiproject.netlify.app/
+**배포**
+
+https://webpageminiproject.netlify.app/
 
 
 - **기간**: 총 5일  (2024.08.03 ~ 2024.08.27)
