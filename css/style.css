@@ -406,6 +406,11 @@ ul li img:active{
   cursor: grabbing;
 }
 
+
+
+/* aside */
+
+
 /*미디어 쿼리 */
 @media only screen and (min-width: 700px){
     .inner{
@@ -551,3 +556,4 @@ ul li img:active{
       text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
     }
   }
+
