@@ -1,11 +1,8 @@
 ### 반응형 웹 프로젝트 
-<p align="center">
-  <img src="![스크린샷1](https://github.com/user-attachments/assets/5faae131-3b88-4afd-8578-557d8fffe09d)" width="200">
-  <img src="![스크린샷2](https://github.com/user-attachments/assets/d638329c-dd1a-46ee-a3a2-3537458f331d)" width="200">
-  <img src="![스크린샷 3](https://github.com/user-attachments/assets/05221873-4cff-4387-8dae-99b87767ad57)" width="200">
-</p>
 
-
+![스크린샷1](https://github.com/user-attachments/assets/ba955980-9cbc-4bab-96d5-62be57df7183)
+![스크린샷2](https://github.com/user-attachments/assets/2a33d8ff-6b0f-467d-b008-ff93f1f95f03)
+![스크린샷 3](https://github.com/user-attachments/assets/18e77c44-bc9f-40c9-9666-f7c033ec54b8)
 
 
 **개요**
