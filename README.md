@@ -1,5 +1,9 @@
 ### 반응형 웹 프로젝트 
-| ![스크린샷1](https://github.com/user-attachments/assets/3e82e29c-d41f-450d-bae4-634edef8ef82) | ![스크린샷2](https://github.com/user-attachments/assets/c0216b85-cbd6-44e3-a5b2-46170e56449b) | ![스크린샷 3](https://github.com/user-attachments/assets/9c61aa6d-2b2c-44cc-b793-7d8a59de61cf) |
+<p align="center">
+  <img src="![스크린샷1](https://github.com/user-attachments/assets/5faae131-3b88-4afd-8578-557d8fffe09d)" width="200">
+  <img src="![스크린샷2](https://github.com/user-attachments/assets/d638329c-dd1a-46ee-a3a2-3537458f331d)" width="200">
+  <img src="![스크린샷 3](https://github.com/user-attachments/assets/05221873-4cff-4387-8dae-99b87767ad57)" width="200">
+</p>
 
 
 
