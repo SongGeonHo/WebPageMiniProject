@@ -17,7 +17,7 @@
 https://webpageminiproject.netlify.app/
 
 
-- **기간**: 총 5일  (2024.08.03 ~ 2024.08.27)
+- **기간**: 25일  (2024.08.03 ~ 2024.08.27)
 - **팀 구성**: 1인 미니 프로젝트 
 - **기술 스택**: HTML,CSS(Bootstrap 5),JavaScript 
 
